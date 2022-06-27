@@ -43,8 +43,8 @@ export default NextAuth({
       if (account && user) {
         return {
           ...token,
-          accessToken: account.accessToken,
-          refreshToken: account.refreshToken,
+          accessToken: account.access_token,
+          refreshToken: account.refresh_token,
           username: account.providerAccountId,
           accessTokenExpires: account.expires_at * 1000,
         };
@@ -54,7 +54,6 @@ export default NextAuth({
       if (token.accessTokenExpires > Date.now()) {
         return token;
       }
-
       // Provide a refresh token when access token expires
       return await refreshAccessToken(token);
     },
