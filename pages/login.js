@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { getProviders, signIn } from "next-auth/react";
 
@@ -7,7 +8,7 @@ function login({ providers }) {
       <img
         className="w-52 mb-20"
         src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg"
-        alt="Potyfi Logo"
+        alt="Spotify Logo"
       />
 
       {Object.values(providers).map((provider) => (
