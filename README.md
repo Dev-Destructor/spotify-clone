@@ -44,4 +44,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Note
 
-I didn't have the Spotify Premium so I couldn't check some of its features (player feature) and also didn't dep0ly it. Please fork and test the app if you have spotify premium. 
+I didn't have the Spotify Premium so I couldn't check some of its features (player feature) and also didn't depoly it. Please fork and test the app if you have spotify premium. 
