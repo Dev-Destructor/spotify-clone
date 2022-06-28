@@ -1,6 +1,7 @@
 import { getSession } from "next-auth/react";
 import Head from "next/head";
 import Center from "../components/center/Center";
+import Player from "../components/player/Player";
 import Sidebar from "../components/sidebar/Sidebar";
 
 export default function Home() {
@@ -15,12 +16,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex">
+      <div className="flex">
         <Sidebar />
         <Center />
-      </main>
-
-      <div>{/* Player */}</div>
+      </div>
+      <div className="sticky bottom-0">
+        <Player />
+      </div>
     </div>
   );
 }
