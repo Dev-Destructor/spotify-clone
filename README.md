@@ -35,7 +35,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Deployment
 
 Deployed using vercel.
-link:- [Spotify Clone]()
+link:- [Spotify Clone](https://spotify-clone-destructor007.vercel.app/)
 
 <Br/> <Br/>
 
