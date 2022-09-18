@@ -19,29 +19,26 @@ yarn dev
 ## Dependencies
 
 ```bash
-react
-react-dom
-next-auth
-lodash
-recoil
-tailwindcss
-postcss
-autoprefixer
-@heroicons/react
-tailwind-scrollbar-hide
-eslint
+ReactJs
+NextJs
+NextAuth
+TailwindCSS
+Recoil
+Lodash
+Spotify Web Api
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 <Br /><Br />
 
+## Deployment
+
+Deployed using vercel.
+link:- [Spotify Clone]()
+
+<Br/> <Br/>
+
 ## Preview
 
-<img src="./public/Spotify-Preview.png" alt="preview"/>
-
-<Br /><Br />
-
-## Note
-
-I didn't have the Spotify Premium so I couldn't check some of its features (player feature) and also didn't deploy it. Please fork and test the app if you have spotify premium. 
+<img src="./public/Spotify-Preview.png" alt="preview"/> 
