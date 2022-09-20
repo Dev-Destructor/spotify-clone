@@ -13,7 +13,7 @@ export default function Home() {
           name="description"
           content="All your favorite songs are listed here"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/spotify_icon.ico" />
       </Head>
 
       <div className="flex">
