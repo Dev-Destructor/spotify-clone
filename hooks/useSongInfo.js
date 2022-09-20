@@ -24,7 +24,7 @@ function useSongInfo() {
     fetchSongInfo();
   }, [currentTrackId, spotifyApi]);
 
-  return useSongInfo;
+  return songInfo;
 }
 
 export default useSongInfo;
