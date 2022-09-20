@@ -53,7 +53,7 @@ function Center() {
         >
           <img
             className="rounded-full w-10 h-10"
-            src={session?.user.image}
+            src={session?.user?.image}
             alt=""
           />
           <h2>{session?.user.name}</h2>
